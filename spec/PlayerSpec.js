@@ -16,7 +16,7 @@ describe('Player', function(){
       player.play(2);
       expect(player.score(1)).toEqual(16);
   });
-    it('returns the score of frame up tposition 1 with 2 gutter balls', function (){
+    it('returns the score of frame up to position 1 with 2 gutter balls', function (){
       player.play(10);
       player.play(0);
       player.play(0);
